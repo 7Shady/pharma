@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Medical Demo</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/glyphicons.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/AdminLTE.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/all-skins.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-jvectormap-1.2.2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/select2.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css" />
+<script type="text/javascript" src="assets/js/jQuery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootbox.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/Chart.min.js"></script>
+<script type="text/javascript" src="assets/js/legend.js"></script>
+<script type="text/javascript" src="assets/js/app.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-jvectormap-1.2.2.min.js"></script><script type="text/javascript" src="assets/js/jquery-jvectormap-world-mill-en.js"></script><script type="text/javascript" src="assets/js/select2.full.min.js"></script><script type="text/javascript" src="assets/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="assets/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/js/main.custom.min.js"></script>
+<script type="text/javascript" src="assets/js/popup.js"></script>
+<script type="text/javascript" src="assets/js/print.js"></script>
+</head>
+<body class="hold-transition login-page">
+<div class="verticalcenter"> </div>
+<div class="login-box">
+  <div class="login-logo"> <img src="/demo/server4/medicalstore1200/img/30e07ec0a7b72b3b8ad79c7ca0215234.png" alt="Medical Demo" class="brand" /> </div>
+  <!-- /.login-box -->
+  <form action="" controller="Users" name="post_req" id="post_req" method="post" accept-charset="utf-8">
+    <div style="display:none;">
+      <input type="hidden" name="_method" value="POST"/>
+    </div>
+    <div class="login-box-body">
+    <h2>Admin Control Panel</h2>
+    <div class="form-group has-feedback">
+      <input name="data[User][username]" class="form-control" placeholder="Admin Username" maxlength="50" type="text" id="UserUsername" required/>
+      <span class="glyphicon glyphicon-user form-control-feedback"></span> </div>
+    <div class="form-group has-feedback">
+      <input name="data[User][password]" class="form-control" placeholder="Password" type="password" id="UserPassword"/>
+      <span class="glyphicon glyphicon-lock form-control-feedback"></span> </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <button type="submit" class="btn btn-primary btn-block btn-flat"> Sign In</button>
+      </div>
+    </div>
+  </form>
+  <a href="password.html">Forgot Password</a>
+  <div class="pull-right"> <a href="username.html">Forgot User Name</a> </div>
+</div>
+</div>
+<div class="modal fade" id="targetModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-content"> </div>
+</div>
+</body>
+</html>

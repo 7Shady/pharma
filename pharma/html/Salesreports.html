@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Medical Demo</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/glyphicons.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/AdminLTE.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/all-skins.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-jvectormap-1.2.2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/select2.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css" />
+<script type="text/javascript" src="assets/js/jQuery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootbox.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/Chart.min.js"></script>
+<script type="text/javascript" src="assets/js/legend.js"></script>
+<script type="text/javascript" src="assets/js/app.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-jvectormap-1.2.2.min.js"></script><script type="text/javascript" src="assets/js/jquery-jvectormap-world-mill-en.js"></script><script type="text/javascript" src="assets/js/select2.full.min.js"></script><script type="text/javascript" src="assets/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="assets/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/js/main.custom.min.js"></script>
+<script type="text/javascript" src="assets/js/popup.js"></script>
+<script type="text/javascript" src="assets/js/print.js"></script>
+<script type="text/javascript" src="assets/js/highcharts.js"></script>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <header class="main-header"> <a href="#" class="logo"> <span class="logo-mini"><b>Digi Das</b></span> <span class="logo-lg"><b>Digi Das</b></span> </a>
+    <nav class="navbar navbar-static-top" role="navigation"> <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> <span class="sr-only">Toggle navigation</span> </a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown user user-menu"> <a href="javascript:void(0);" onClick="showPopup('Calculator.html',520,360);" class="dropdown-toggle"><i class="fa fa-calculator"></i>&nbsp;<span class="hidden-xs">Calculator</span></a> </li>
+          
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> <span class="hidden-xs">Administrator</span> </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header"> <i class="fa fa-user"></i>
+                <p> Administrator <small>Member since 2014-04-01 21:08:06</small> <a href="changePass.html">Change Password</a> </p>
+              </li>
+              <!-- Menu Body --> 
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left"> <a href="myProfile.html">Profile</a> </div>
+                <div class="pull-right"> <a href="login_form.html" class="btn btn-default btn-flat">Sign Out</a> </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <aside class="main-sidebar">
+    <section class="sidebar">
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+      </ul>
+      <ul id="sidebar-menu" class="sidebar-menu">
+        <li class="active"><a href="Dashboards.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+        <li><a href="Users.html"><i class="fa fa-user fa-fw"></i> <span>Users</span></a></li>
+        <li><a href="Members.html"><i class="fa fa-user "></i> <span>Customer</span></a></li>
+        <li><a href="Racks.html"><i class="fa fa-table"></i> <span>Rack</span></a></li>
+        <li><a href="Categories.html"><i class="fa fa-link"></i> <span>Category</span></a></li>
+        <li><a href="Suppliers.html"><i class="fa fa-user"></i> <span>Supplier</span></a></li>
+        <li><a href="Products.html"><i class="fa fa-medkit"></i> <span>Product</span></a></li>
+        <li><a href="Returnproducts.html"><i class="fa fa-exchange"></i> <span>Return Product To Supplier</span></a></li>
+        <li><a href="Managereturnsuppliers.html"><i class="fa fa-exchange"></i> <span>Manage Return To Supplier</span></a></li>
+        <li><a href="Billings.html"><i class="fa fa-print"></i> <span>Billing</span></a></li>
+        <li><a href="Managesolds.html"><i class="fa fa-shopping-cart "></i> <span>Manage Sold Medicine</span></a></li>
+        <li><a href="Returnmedicines.html"><i class="fa fa-exchange"></i> <span>Return Medicine</span></a></li>
+        <li><a href="Managereturnmedicines.html"><i class="fa fa-exchange"></i> <span>Manage Return Medicine</span></a></li>
+        <li class="treeview"> <a href="#"><i class="fa fa-table"></i> <span>Report</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="Purchasereports.html"><i class=""></i><span>Purchase Report</span></a></li>
+            <li><a href="Purchasereturnreports.html"><i class=""></i><span>Purchase Return Report</span></a></li>
+            <li><a href="Salesreports.html"><i class=""></i><span>Sale Report</span></a></li>
+            <li><a href="Salereturnreports.html"><i class=""></i><span>Sale Return Report</span></a></li>
+            <li><a href="Supplierreports.html"><i class=""></i><span>Supplier Report</span></a></li>
+            <li><a href="Cashreports.html"><i class=""></i><span>Cash Report</span></a></li>
+          </ul>
+        </li>
+        <li class="treeview"> <a href="#"><i class="fa fa-cogs fa-fw"></i> <span>Configurations</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="Configurations.html"><i class=""></i><span>General</span></a></li>
+            <li><a href="Medicines.html"><i class=""></i><span>Medicine</span></a></li>
+            <li><a href="Emailsettings.html"><i class=""></i><span>E-mail Setting</span></a></li>
+            <li><a href="Emailtemplates.html"><i class=""></i><span>E-mail Template</span></a></li>
+            <li><a href="Weblogos.html"><i class=""></i><span>Organization Logo</span></a></li>
+            <li><a href="Currencies.html"><i class=""></i><span>Currency</span></a></li>
+          </ul>
+        </li>
+        <li><a href="Helps.html"><i class="fa fa-question-circle fa-fw"></i> <span>Help</span></a></li>
+      </ul>
+    </section>
+  </aside>
+  <div class="content-wrapper">
+    <section class="content"> 
+      <script type="text/javascript">
+    $(document).ready(function(){        
+        $('#start_date').datetimepicker({locale:'en',format:'DD-MM-YYYY'});
+        $('#end_date').datetimepicker({locale:'en',format:'DD-MM-YYYY',useCurrent: false //Important! See issue #1075
+        });
+        $("#start_date").on("dp.change", function (e) {
+            $('#end_date').data("DateTimePicker").minDate(e.date);
+        });
+        $("#end_date").on("dp.change", function (e) {
+            $('#start_date').data("DateTimePicker").maxDate(e.date);
+        });	
+});
+</script>
+      <section class="content">
+        <div class="row">
+          <div  class="col-xs-12">
+            <div class="box">
+              <div class="box-body">
+                <div class="box-header">
+                  <div class="box-title">
+                    <h4 > <span>Sales Report</span></h4>
+                  </div>
+                </div>
+                <div class="row mrg">
+                  <div  class="col-sm-offset-2 col-md-3">
+                    <div>
+                      <button class="btn btn-primary" type="button">Total Sales Count this month <span class="badge">12</span> <br/>
+                      <br/>
+                      Total Earning this month <span class="badge"><img src="images/doller.gif"> 1,051.64</span></button>
+                    </div>
+                  </div>
+                  <div  class="col-sm-offset-1 col-md-3">
+                    <div>
+                      <button class="btn btn-primary" type="button">Total Sales Count <span class="badge">68</span> <br/>
+                      <br/>
+                      Total Earning <span class="badge"><img src="images/doller.gif"> 6,180.40</span></button>
+                    </div>
+                  </div>
+                </div>
+                <form action="" name="searchfrm" id="SalesreportIndexForm" method="post" accept-charset="utf-8">
+                  <div style="display:none;">
+                    <input type="hidden" name="_method" value="POST"/>
+                  </div>
+                  <div class="row mrg">
+                    <div class="col-sm-2">
+                      <select name="data[Salesreport][date][year]" class="form-control" id="SalesreportDateYear">
+                        <option value="">Year</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                      </select>
+                    </div>
+                    <label for="group_name" class="col-sm-1 control-label"><strong>Date</strong></label>
+                    <div class="col-md-2">
+                      <div class="input-group date" id="start_date">
+                        <input name="data[Salesreport][start_date]" class="form-control" type="text" id="SalesreportStartDate"/>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="input-group date" id="end_date">
+                        <input name="data[Salesreport][end_date]" id="end_date" class="form-control" type="text"/>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+                    </div>
+                    <div class="col-md-3">
+                      <button type="submit" class="btn btn-success btn-sm"><span class="fa fa-search"></span> Search</button>
+                      <a href="" class="btn btn-warning btn-sm"><span class="fa fa-refresh"></span>&nbsp;Reset</a> </div>
+                  </div>
+                </form>
+                <div class="chart">
+                  <div id="mywrapperdl"></div>
+                  <script type="text/javascript">
+//<![CDATA[
+$(document).ready(function() {
+    // HIGHROLLER - HIGHCHARTS UTC OPTIONS 
+    Highcharts.setOptions(
+        {"global":{"useUTC":true}}
+    );
+    // HIGHROLLER - HIGHCHARTS 'Sales Earning' line chart
+
+    var mywrapperdl = new Highcharts.Chart(
+        {"chart":{"renderTo":"mywrapperdl","type":"line"},"title":{"text":"Sales Earning","align":"center"},"series":[{"name":"Sales Report","data":[0,0,0,0,0,0,0,0,454.15,1130.31,3544.3,1051.64]}],"tooltip":{"backgroundColor":{},"formatter":function() { return '<b>'+ this.series.name +'<\/b><br\/>'+ this.x +': '+''+ this.y ;}},"plotOptions":{"series":{"series":{"dataLabels":{"style":{}}},"line":null,"showInLegend":true}},"xAxis":{"categories":["September 2016","October 2016","November 2016","December 2016","January 2017","February 2017","March 2017","April 2017","May 2017","June 2017","July 2017","August 2017"]},"labels":{"formatter":{"formatter":""}},"dataLabels":{"formatter":{"formatter":""}},"yAxis":{"style":{},"title":{"text":""}},"credits":{"enabled":false}}
+    );
+    
+    //for column drilldown
+    function setChart(name, categories, data, color) {
+        mywrapperdl.xAxis[0].setCategories(categories);
+        mywrapperdl.series[0].remove();
+        mywrapperdl.addSeries({
+            name: name,
+            data: data,
+            color: color || 'white'
+        });
+    }   
+});
+//]]>
+</script> </div>
+                <div class="table-responsive">
+                  <table class="table table-striped table-bordered">
+                    <tr>
+                      <th>Month</th>
+                      <th>Sales Count</th>
+                      <th>Earning</th>
+                    </tr>
+                    <tr>
+                      <td>September 2016</td>
+                      <td>0</td>
+                      <td><img src="images/doller.gif"> 0.00</td>
+                    </tr>
+                    <tr>
+                      <td>October 2016</td>
+                      <td>0</td>
+                      <td><img src="images/doller.gif"> 0.00</td>
+                    </tr>
+                    <tr>
+                      <td>November 2016</td>
+                      <td>0</td>
+                      <td><img src="images/doller.gif"> 0.00</td>
+                    </tr>
+                    <tr class="info">
+                      <td><strong>Total</strong></td>
+                      <td><strong>68</strong></td>
+                      <td><strong><img src="images/doller.gif"> 6,180.40</strong></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    </section>
+  </div>
+  <footer class="main-footer"> Digi Dass &copy; 2017 </footer>
+</div>
+<div class="modal fade" id="targetModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-content"> </div>
+</div>
+</body>
+</html>

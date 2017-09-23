@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Medical Demo</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/glyphicons.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/AdminLTE.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/all-skins.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/jquery-jvectormap-1.2.2.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/select2.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css" />
+<script type="text/javascript" src="assets/js/jQuery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootbox.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/Chart.min.js"></script>
+<script type="text/javascript" src="assets/js/legend.js"></script>
+<script type="text/javascript" src="assets/js/app.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-jvectormap-1.2.2.min.js"></script><script type="text/javascript" src="assets/js/jquery-jvectormap-world-mill-en.js"></script><script type="text/javascript" src="assets/js/select2.full.min.js"></script><script type="text/javascript" src="assets/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="assets/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="assets/js/main.custom.min.js"></script>
+<script type="text/javascript" src="assets/js/popup.js"></script>
+<script type="text/javascript" src="assets/js/print.js"></script>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  <header class="main-header"> <a href="#" class="logo"> <span class="logo-mini"><b>Digi Das</b></span> <span class="logo-lg"><b>Digi Das</b></span> </a>
+    <nav class="navbar navbar-static-top" role="navigation"> <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button"> <span class="sr-only">Toggle navigation</span> </a>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown user user-menu"> <a href="javascript:void(0);" onClick="showPopup('Calculator.html',520,360);" class="dropdown-toggle"><i class="fa fa-calculator"></i>&nbsp;<span class="hidden-xs">Calculator</span></a> </li>
+          
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> <span class="hidden-xs">Administrator</span> </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header"> <i class="fa fa-user"></i>
+                <p> Administrator <small>Member since 2014-04-01 21:08:06</small> <a href="changePass.html">Change Password</a> </p>
+              </li>
+              <!-- Menu Body --> 
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left"> <a href="myProfile.html">Profile</a> </div>
+                <div class="pull-right"> <a href="login_form.html" class="btn btn-default btn-flat">Sign Out</a> </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <aside class="main-sidebar">
+    <section class="sidebar">
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+      </ul>
+      <ul id="sidebar-menu" class="sidebar-menu">
+        <li class="active"><a href="Dashboards.html"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+        <li><a href="Users.html"><i class="fa fa-user fa-fw"></i> <span>Users</span></a></li>
+        <li><a href="Members.html"><i class="fa fa-user "></i> <span>Customer</span></a></li>
+        <li><a href="Racks.html"><i class="fa fa-table"></i> <span>Rack</span></a></li>
+        <li><a href="Categories.html"><i class="fa fa-link"></i> <span>Category</span></a></li>
+        <li><a href="Suppliers.html"><i class="fa fa-user"></i> <span>Supplier</span></a></li>
+        <li><a href="Products.html"><i class="fa fa-medkit"></i> <span>Product</span></a></li>
+        <li><a href="Returnproducts.html"><i class="fa fa-exchange"></i> <span>Return Product To Supplier</span></a></li>
+        <li><a href="Managereturnsuppliers.html"><i class="fa fa-exchange"></i> <span>Manage Return To Supplier</span></a></li>
+        <li><a href="Billings.html"><i class="fa fa-print"></i> <span>Billing</span></a></li>
+        <li><a href="Managesolds.html"><i class="fa fa-shopping-cart "></i> <span>Manage Sold Medicine</span></a></li>
+        <li><a href="Returnmedicines.html"><i class="fa fa-exchange"></i> <span>Return Medicine</span></a></li>
+        <li><a href="Managereturnmedicines.html"><i class="fa fa-exchange"></i> <span>Manage Return Medicine</span></a></li>
+        <li class="treeview"> <a href="#"><i class="fa fa-table"></i> <span>Report</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="Purchasereports.html"><i class=""></i><span>Purchase Report</span></a></li>
+            <li><a href="Purchasereturnreports.html"><i class=""></i><span>Purchase Return Report</span></a></li>
+            <li><a href="Salesreports.html"><i class=""></i><span>Sale Report</span></a></li>
+            <li><a href="Salereturnreports.html"><i class=""></i><span>Sale Return Report</span></a></li>
+            <li><a href="Supplierreports.html"><i class=""></i><span>Supplier Report</span></a></li>
+            <li><a href="Cashreports.html"><i class=""></i><span>Cash Report</span></a></li>
+          </ul>
+        </li>
+        <li class="treeview"> <a href="#"><i class="fa fa-cogs fa-fw"></i> <span>Configurations</span> <i class="fa fa-angle-left pull-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a href="Configurations.html"><i class=""></i><span>General</span></a></li>
+            <li><a href="Medicines.html"><i class=""></i><span>Medicine</span></a></li>
+            <li><a href="Emailsettings.html"><i class=""></i><span>E-mail Setting</span></a></li>
+            <li><a href="Emailtemplates.html"><i class=""></i><span>E-mail Template</span></a></li>
+            <li><a href="Weblogos.html"><i class=""></i><span>Organization Logo</span></a></li>
+            <li><a href="Currencies.html"><i class=""></i><span>Currency</span></a></li>
+          </ul>
+        </li>
+        <li><a href="Helps.html"><i class="fa fa-question-circle fa-fw"></i> <span>Help</span></a></li>
+      </ul>
+    </section>
+  </aside>
+  <div class="content-wrapper">
+    <section class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="widget">
+              <h4 class="widget-title">Change Password</span></h4>
+            </div>
+          </div>
+          <div class="panel-body">
+            <form action="" controller="Users" name="post_req" id="post_req" class="form-horizontal" method="post" accept-charset="utf-8">
+              <div style="display:none;">
+                <input type="hidden" name="_method" value="POST"/>
+              </div>
+              <div class="form-group">
+                <label for="group_name" class="col-sm-3 control-label">Old Password</label>
+                <div class="col-sm-9">
+                  <input name="data[User][oldPassword]" id="oldPassword" value="" class="form-control input-sm validate[required,minSize[4],maxSize[15]]" placeholder="Old Password" type="password"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="group_name" class="col-sm-3 control-label">Password</label>
+                <div class="col-sm-9">
+                  <input name="data[User][password]" id="password" value="" class="form-control validate[required,minSize[4],maxSize[15]]" placeholder="Password" type="password"/>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="group_name" class="col-sm-3 control-label">Confirm Password</label>
+                <div class="col-sm-9">
+                  <input name="data[User][con_password]" value="" class="form-control validate[required,minSize[4],maxSize[15],equals[password]]" placeholder="Confirm Password" type="password" id="UserConPassword"/>
+                </div>
+              </div>
+              <div class="form-group text-left">
+                <div class="col-sm-offset-3 col-sm-7">
+                  <button type="submit" class="btn btn-success"><span class="fa fa-refresh"></span>&nbsp;Update</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  </section>
+</div>
+<footer class="main-footer"> Digi Dass &copy; 2017 </footer>
+</div>
+<div class="modal fade" id="targetModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-content"> </div>
+</div>
+</body>
+</html>
